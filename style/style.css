@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #232B2B;
+    text-align: center;
+    padding: 20px;
+    border: #232B2B 1px solid;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 4.95px 4.95px 2.6px;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.inp{
+    font-weight: bold;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    width: 220px;
+}
+
+.inp:focus{
+    outline: none;
+}
+
+button {
+    font-size: 1rem;
+    box-shadow: 0 0.2rem #dfd9d9;
+    cursor: pointer;
+}
+   
+button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+   
+button:disabled {
+    cursor: auto;
+    color: grey;
+}
+
+.btnC{
+    width: 51px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f62681;
+    color: white;
+}
+
+.btnC:hover:not(:disabled) {
+    background: #de3163;
+    color: white;
+}
+
+.btn{
+    width: 68px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bd33a4;
+    color: white;
+}
+
+.btn:hover:not(:disabled) {
+    background: #8b008b;
+    color: white;
+}
+
+.btnoperator{
+    width: 51px;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #bd33a4;
+    color: white;
+}
+
+.btnoperator:hover:not(:disabled) {
+    background: #8b008b;
+    color: white;
+}
+
+.btn1{
+    background-color: #f62681;
+}
+
+.btn1:hover:not(:disabled) {
+    background: #de3163;
+    color: white;
+}
+
